@@ -1,3 +1,4 @@
+@btassignment_update_checkout
 Feature: Update and checkout to complete order in demo website [ https://react-shopping-cart-67954.firebaseapp.com/ ]
 
   @btassignment_03_Test1
@@ -8,7 +9,8 @@ Feature: Update and checkout to complete order in demo website [ https://react-s
     Then Validate value "$ 50.05" of "str" from xpath "fetch_total_amount"
     And wait for xpath "remove_item_cart" for validation with timeout "10"
     And I clear "3" items from cart
-    Then  Validate value "$ 0.00" of "str" from xpath "fetch_total_amount"
+    Then Validate value "$ 0.00" of "str" from xpath "fetch_total_amount"
+    And close browser
 
   @btassignment_03_Test2
   Scenario: Verify user is able to place order
@@ -18,3 +20,4 @@ Feature: Update and checkout to complete order in demo website [ https://react-s
     And wait for xpath "checkout_btn_txt" for validation with timeout "10"
     Then I Click "checkout button" with xpath "checkout_btn_txt"
     Then I verify "$ 50.05" is correct in alert message
+    And close browser
