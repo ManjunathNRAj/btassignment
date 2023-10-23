@@ -6,9 +6,10 @@ Project btassignment is tested using BDD behave framework with selenium for test
 2. Add python path to environment variables system variables path
 3. Install selenium [command: pip install selenium]
 4. Install behave [command: pip install behave]
-5. Clone code from: 
-6. Copy btassignment to c:\ folder 
-7. Open command prompt and cwd to c:\btassignment\features [command: cd c:\btassignment\features\ ]
+5. Update chrome browser to Version 118.0.5993.89
+6. Clone code from: https://github.com/ManjunathNRAj/btassignment from cmd: "git clone --depth=1 -b main https://github.com/ManjunathNRAj/btassignment.git"
+7. Copy btassignment folder to c:\ folder 
+8. Open command prompt and cwd to c:\btassignment\features [command: cd c:\btassignment\features\ ]
 
 # How to Run Testscenarios :
 
