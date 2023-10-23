@@ -4,8 +4,8 @@ Project btassignment is tested using BDD behave framework with selenium for test
 # Required Pre-requisites :
 1. Install python on windows platform.
 2. Add python path to environment variables system variables path
-3. Install selenium [command: pip install selenium]
-4. Install behave [command: pip install behave]
+3. Install selenium [command: pip install selenium, version: selenium == 4.14.0]
+4. Install behave [command: pip install behave, version: behave == 1.2.6]
 5. Clone code from: 
 6. Copy btassignment to c:\ folder 
 7. Open command prompt and cwd to c:\btassignment\features [command: cd c:\btassignment\features\ ]
